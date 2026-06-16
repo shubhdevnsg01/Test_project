@@ -7,9 +7,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/App.css" />
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <main class="page">
+        <section class="proposal-card" aria-labelledby="proposalTitle">
+          <div class="heart-badge" aria-hidden="true">💘</div>
+          <p class="eyebrow">A tiny question from my heart</p>
+          <h1 id="proposalTitle">Will you go on a date with me?</h1>
+          <p class="subtitle">I promise smiles, sweet memories, and maybe your favorite dessert. ❤️</p>
+          <div class="button-row" aria-label="Proposal choices">
+            <button class="btn btn-yes" type="button">Yes</button>
+            <button class="btn btn-no" type="button">No</button>
+          </div>
+        </section>
+      </main>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
