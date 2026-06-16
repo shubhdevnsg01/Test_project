@@ -1,53 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Will You Date Me?</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <main class="page" id="proposalPage">
-    <section class="proposal-card" aria-labelledby="proposalTitle">
-      <div class="heart-badge" aria-hidden="true">💘</div>
-      <p class="eyebrow">A tiny question from my heart</p>
-      <h1 id="proposalTitle">Will you go on a date with me?</h1>
-      <p class="subtitle">I promise smiles, sweet memories, and maybe your favorite dessert. ❤️</p>
-
-      <div class="button-row" aria-label="Proposal choices">
-        <button class="btn btn-yes" id="yesButton" type="button">Yes</button>
-        <button class="btn btn-no" id="noButton" type="button">No</button>
-      </div>
-    </section>
-  </main>
-
-  <section class="celebration hidden" id="celebrationPage" aria-live="polite">
-    <div class="celebration-card">
-      <div class="sparkle" aria-hidden="true">💖</div>
-      <h2>Yay! You just made my heart dance!</h2>
-      <p>Pick a date and time, and tell me where we should make this memory.</p>
-
-      <form class="date-form" action="https://formsubmit.co/iamshubhamsingh26@gmail.com" method="POST">
-        <input type="hidden" name="_subject" value="Date proposal accepted ❤️" />
-        <input type="hidden" name="_captcha" value="false" />
-
-        <label for="date">Date</label>
-        <input id="date" name="date" type="date" required />
-
-        <label for="time">Time</label>
-        <input id="time" name="time" type="time" required />
-
-        <label for="location">Location <span>(optional)</span></label>
-        <input id="location" name="location" type="text" placeholder="Cafe, park, restaurant..." />
-
-        <button class="btn btn-submit" type="submit">Send my date plan ❤️</button>
-      </form>
-    </div>
-  </section>
-
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Will You Date Me?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
