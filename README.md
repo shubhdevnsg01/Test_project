@@ -35,7 +35,7 @@ npm run dev
 
 ## Deploy on Vercel
 
-This repository includes `vercel.json`, so Vercel knows to install dependencies, run the Vite build, and publish the `dist` folder.
+This repository includes `vercel.json`, so Vercel knows to install dependencies, run the Vite build, and publish the `dist` folder. Do not add a catch-all `routes` rule for this app; Vercel should serve the generated JavaScript and CSS assets from `dist/assets` normally.
 
 ### Deploy from the Vercel dashboard
 
