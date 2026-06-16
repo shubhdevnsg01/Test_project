@@ -112,8 +112,8 @@ export default function App() {
 
         <div className="celebration-card">
           <div className="sparkle" aria-hidden="true">💖</div>
-          <h2>Yay! You just made my heart dance!</h2>
-          <p>Pick a date and time, and tell me where we should make this memory.</p>
+          <h2>Yay!Lovess Youss</h2>
+          <p>Pick a date and time.</p>
 
           <form className="date-form" action="https://formsubmit.co/iamshubhamsingh26@gmail.com" method="POST">
             <input type="hidden" name="_subject" value="Date proposal accepted ❤️" />
@@ -138,10 +138,10 @@ export default function App() {
   return (
     <main className="page" onMouseMove={handlePointerMove}>
       <section className="proposal-card" aria-labelledby="proposalTitle">
-        <div className="heart-badge" aria-hidden="true">💘</div>
+        <div className="heart-badge" aria-hidden="true">❤️</div>
         <p className="eyebrow">A tiny question from my heart</p>
         <h1 id="proposalTitle">Will you go on a date with me?</h1>
-        <p className="subtitle">I promise smiles, sweet memories, and maybe your favorite dessert. ❤️</p>
+        <p className="subtitle">Free Pick and Drop+Flowersss. ❤️</p>
 
         <div className="button-row" aria-label="Proposal choices">
           <button className="btn btn-yes" type="button" onClick={startCelebration}>Yes</button>
