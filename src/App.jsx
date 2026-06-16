@@ -139,7 +139,7 @@ export default function App() {
     <main className="page" onMouseMove={handlePointerMove}>
       <section className="proposal-card" aria-labelledby="proposalTitle">
         <div className="heart-badge" aria-hidden="true">❤️</div>
-        <p className="eyebrow">A tiny question from my heart</p>
+        <p className="eyebrow">A tiny question</p>
         <h1 id="proposalTitle">Will you go on a date with me?</h1>
         <p className="subtitle">Free Pick and Drop+Flowersss. ❤️</p>
 
